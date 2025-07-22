@@ -1,16 +1,88 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+        }
+        img {
+            display: block;
+            margin: 0 auto 20px;
+            max-width: 200px;
+            border-radius: 50%;
+        }
+        a {
+            display: block;
+            text-align: center;
+            margin: 10px 0;
+            color: #0077b5;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        section {
+            margin: 20px 0;
+        }
+        h2 {
+            color: #2c3e50;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <div class="container">
+        <!-- Image -->
+        <img src="https://via.placeholder.com/150" alt="My Profile Picture">
+        
+        <!-- Name -->
+        <h1>John Doe</h1>
+        
+        <!-- LinkedIn Profile -->
+        <a href="https://www.linkedin.com/in/anuj-gusain-071175186/" target="_blank">LinkedIn Profile</a>
+        
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <p>I am proficient in various programming languages and technologies, including HTML, CSS, JavaScript, and Python. I have experience in web development, responsive design, and creating user-friendly interfaces. Additionally, I am skilled in problem-solving and working with teams to deliver projects on time.</p>
+        </section>
+        
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>E-commerce Website - Developed a fully functional online store with payment integration using HTML, CSS, and JavaScript.</li>
+                <li>Personal Blog - Created a responsive blog platform with a custom CMS backend using Python and Flask.</li>
+                <li>Weather App - Built an interactive weather forecasting application using React and external APIs.</li>
+            </ul>
+        </section>
+    </div>
 </body>
-
 </html>
